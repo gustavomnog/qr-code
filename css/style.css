@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body .container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d6e2f0;
+}
+
+body .container .box {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+body .container .box img {
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 16px;
+}
+
+body .container .box .text {
+  width: 70%;
+  margin: auto;
+}
+
+body .container .box .text span:first-child {
+  display: block;
+  margin: 16px 0;
+  font-weight: 700;
+  color: #1f3251;
+}
+
+body .container .box .text span:last-child {
+  color: #7b879d;
+}
+
+@media only screen and (max-width: 375px) {
+  body .container .box {
+    width: 300px;
+    height: 450px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
